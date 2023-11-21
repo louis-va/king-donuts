@@ -1,10 +1,10 @@
 # King Donuts
 
-A website for the fictionnal donut shop: King Donuts
+A website for the fictional donut shop: King Donuts
 
 ## Description
 
-I worked on this project in november 2023 with the goal of learning the basics of back-end development with NodeJS, Express, MongoDB and connect it to a react front-end.
+I worked on this project in november 2023 with the goal of learning the basics of back-end development with NodeJS, Express, MongoDB and connect it to a React front-end.
 
 It is an exercise which is part of the Becode bootcamp. The goal was to create a dynamic restaurant website.
 
