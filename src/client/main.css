@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cherry Bomb One";
+  src: url("./assets/fonts/CherryBombOne-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/Nunito-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  h1 {
+    @apply text-4xl font-cursive uppercase sm:text-5xl;
+  }
+  h2 {
+    @apply text-3xl font-cursive uppercase sm:text-4xl;
+  }
+  h3 {
+    @apply text-xl font-cursive uppercase sm:text-2xl;
+  }
+  p{
+    @apply text-lg leading-6 sm:text-xl;
+  }
+  button {
+    @apply focus:ring-2 focus:ring-orange focus:ring-offset-2;
+  }
+  .btn {
+    @apply inline-block uppercase px-8 py-3 rounded-full;
+  }
+  .btn.primary {
+    @apply bg-white text-brown;
+  }
+  .btn.orange {
+    @apply bg-orange text-white;
+  }
+  .btn.secondary {
+    @apply bg-brown-15 text-white;
+  }
+}

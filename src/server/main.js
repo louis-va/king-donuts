@@ -1,11 +1,7 @@
-const express = require("express");
-const ViteExpress = require("vite-express");
+import express from 'express'
+import ViteExpress from 'vite-express'
 
 const app = express();
-
-app.get("/menu-items/", (req, res) => {
-  res.send("Ramen, Spaghetti, Fries");
-});
 
 // Endpoint: get historical corn price
 app.get('/api/menu-items/', async (req, res) => {
